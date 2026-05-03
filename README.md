@@ -1,48 +1,74 @@
-# 💼 Business Card — Utkarsh Kumar
+# 🪪 Business Card — Utkarsh Kumar
 
-A clean, minimal HTML/CSS business card component.
+A simple and clean **HTML/CSS business card** built as part of learning front-end web development.
 
-![Business Card Preview](7.jpg)
+---
 
-## 📁 Project Structure
+## 📸 Preview
+
+![Business Card Preview](preview.png)
+
+---
+
+## 🗂️ Project Structure
 
 ```
 business-card/
-├── buisnesscard.html
-├── styles.css
-└── 7.jpg
+├── buisnesscard.html   # Main HTML file
+├── styles.css          # Stylesheet
+└── 7.jpg               # Profile photo
 ```
 
-## 🚀 Getting Started
+---
 
-1. **Clone the repository**
+## 🚀 How to Run
+
+1. **Clone this repository**
    ```bash
    git clone https://github.com/your-username/business-card.git
+   ```
+
+2. **Navigate into the folder**
+   ```bash
    cd business-card
    ```
 
-2. **Open in browser**  
-   Just open `buisnesscard.html` — no server needed.
+3. **Open in your browser**  
+   Double-click `buisnesscard.html` or open it with Live Server in VS Code.
 
-## ⚠️ Important: Fix the Image Path
+> ⚠️ Make sure `7.jpg` is in the **same folder** as `buisnesscard.html`, and that the `src` is set to a relative path:
+> ```html
+> <img src="7.jpg" class="avatar">
+> ```
 
-Your `src` is set to an absolute local path which won't work on other machines or GitHub Pages. Change it to a relative path:
+---
 
-```html
-<!-- ❌ Wrong -->
-<img src="C:\Users\91820\Desktop\...\7.jpg">
+## 🎨 Tech Stack
 
-<!-- ✅ Correct -->
-<img src="7.jpg" class="avatar">
-```
+| Technology | Usage |
+|------------|-------|
+| HTML5      | Structure & layout |
+| CSS3       | Styling & design |
 
-Make sure `7.jpg` is committed to the repo in the same folder as the HTML file.
+---
 
-## 🛠️ Built With
+## ✨ Features
 
-- HTML5
-- CSS3
+- Responsive card layout using Flexbox
+- Custom color theme with soft purple tones
+- Clean typography with Verdana font
+- Profile photo with name, role, and location
 
-## 👤 Author
+---
 
-**Utkarsh Kumar** — FullStack Developer, Gaya, Bihar
+## 🙋‍♂️ Author
+
+**Utkarsh Kumar**  
+💻 FullStack Developer  
+📍 Gaya, Bihar, India  
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
